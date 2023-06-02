@@ -11,7 +11,7 @@ def login(request):
     payload = {
         "appid": "TEST3931154d6e90b54bfbc3b4946d511393",
         "secretKey": "TEST701a10a8d7389d719903c77dda9fa993fbc0db63",
-        "orderId": "order_id_new_010934raassrddf1229",
+        "orderId": "order_id_new_010934vbffd1229",
         "orderAmount": "1",
         "orderCurrency": "INR",
         "oderNote": "pay",
@@ -20,7 +20,7 @@ def login(request):
         "customerPhone": "8494863493",
         # "returnUrl": "https://cashfree.com",
 
-         "notifyUrl": "https://vailo.ai/payment_info",
+         "notifyUrl": "https://gunalink.vercel.app/payment_info",
     }
 
 
